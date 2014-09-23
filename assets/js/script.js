@@ -1,7 +1,7 @@
 $(function(){
 	
-	var pass1 = $('#password1'),
-		pass2 = $('#password2'),
+	var write1 = $('#password1'),
+		write2 = $('#password2'),
 		form = $('#main form'),
 		arrow = $('#main .arrow');
 
@@ -30,7 +30,7 @@ $(function(){
 	
 
 	// Use the complexify plugin on the first password field
-	pass1.complexify({minimumChars:4, strengthScaleFactor:0.09}, function(valid, complexity){
+	write1.complexify({minimumChars:4, strengthScaleFactor:0.09}, function(valid, complexity){
 		
 		
 		
@@ -53,7 +53,7 @@ $(function(){
 	
 	
 	// Use the complexify plugin on the first password field
-	pass2.complexify({minimumChars:3, strengthScaleFactor:0.08}, function(valid, complexity){
+	write2.complexify({minimumChars:3, strengthScaleFactor:0.08}, function(valid, complexity){
 		
 
 		
